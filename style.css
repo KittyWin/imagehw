@@ -1,0 +1,1248 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.qwerty:hover .el100,
+.qwerty:hover .el,
+.qwerty:hover .el1,
+.qwerty:hover .el2,
+.qwerty:hover .el8 {
+  background-color: rgb(248, 225, 56);
+  transition: 2s;
+}
+.qwerty:hover .el102,
+.qwerty:hover .el64,
+.qwerty:hover .el127,
+.qwerty:hover .el125,
+.qwerty:hover .el128,
+.qwerty:hover .el123,
+.qwerty:hover .el124,
+.qwerty:hover .ell02,
+.qwerty:hover .el62,
+.qwerty:hover .el64,
+.qwerty:hover .el126,
+.qwerty:hover .el65,
+.qwerty:hover .el63,
+.qwerty:hover .el101,
+.qwerty:hover .el59,
+.qwerty:hover .el60,
+.qwerty:hover .el61,
+.qwerty:hover .ell02,
+.qwerty:hover .el62 {
+  background-color: rgb(34, 36, 94);
+  transition: 2s;
+}
+.qwerty:hover .el119,
+.qwerty:hover .el114,
+.qwerty:hover .el118,
+.qwerty:hover .el115,
+.qwerty:hover .el117,
+.qwerty:hover .el116,
+.qwerty:hover .el55,
+.qwerty:hover .el56,
+.qwerty:hover .el121,
+.qwerty:hover .el70,
+.qwerty:hover .el67,
+.qwerty:hover .el129,
+.qwerty:hover .el122,
+.qwerty:hover .el69,
+.qwerty:hover .el68,
+.qwerty:hover .el71,
+.qwerty:hover .el70 {
+  background-color: rgb(239, 229, 124);
+  transition: 2s;
+}
+.qwerty:hover .el107,
+.qwerty:hover .el106,
+.qwerty:hover .el108,
+.qwerty:hover .el110,
+.qwerty:hover .el109 {
+  background-color: rgb(0, 0, 0);
+  transition: 2s;
+}
+.qwerty:hover .el10,
+.qwerty:hover .el21,
+.qwerty:hover .el103,
+.qwerty:hover .el104,
+.qwerty:hover .el105,
+.qwerty:hover .el39,
+.qwerty:hover .el38,
+.qwerty:hover .el54,
+.qwerty:hover .el53 {
+  background-color: rgb(241, 231, 231);
+  transition: 2s;
+}
+
+.el100 {
+  background-color: rgb(255, 255, 255);
+  height: 8px;
+  width: 22px;
+  position: absolute;
+  top: 215px;
+  z-index: 6;
+  transform: rotate(-30deg);
+  left: 79px;
+}
+.base {
+  margin-top: 200px;
+  width: 300px;
+  height: 600px;
+  border: 10px solid rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  transition: 2s;
+}
+.qwerty {
+  width: 1000wh;
+  height: 656px;
+  display: flex;
+  transition: 2s;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.el {
+  width: 80px;
+  height: 22px;
+  background-color: white;
+  position: absolute;
+  top: 74px;
+  left: 90px;
+}
+.el1 {
+  background-color: white;
+  width: 95px;
+  height: 40px;
+  position: absolute;
+  top: 95px;
+  left: 80px;
+}
+.el2 {
+  background-color: white;
+  width: 100px;
+  height: 40px;
+  position: absolute;
+  top: 135px;
+  left: 79px;
+}
+.el8 {
+  background-color: white;
+  height: 110px;
+  width: 105px;
+  position: absolute;
+  top: 175px;
+  left: 76px;
+}
+.el10 {
+  background-color: white;
+  position: absolute;
+  width: 145px;
+  height: 40px;
+  top: 220px;
+  left: 59px;
+}
+.el21 {
+  background-color: white;
+  position: absolute;
+  width: 108px;
+  height: 40px;
+  top: 260px;
+  left: 78px;
+}
+.el38 {
+  background-color: white;
+  position: absolute;
+  width: 105px;
+  height: 40px;
+  top: 300px;
+  left: 80px;
+  z-index: 5;
+}
+.el39 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 101px;
+  height: 20px;
+  top: 340px;
+  z-index: 100;
+  left: 83px;
+}
+.el53 {
+  background-color: white;
+  position: absolute;
+  height: 72px;
+  width: 20px;
+  top: 260px;
+  left: 60px;
+}
+.el54 {
+  background-color: white;
+  position: absolute;
+  height: 75px;
+  width: 20px;
+  top: 259px;
+  left: 183px;
+  transform: rotate(0deg);
+}
+.el55 {
+  background-color: white;
+  position: absolute;
+  height: 90px;
+  width: 20px;
+  top: 332px;
+  left: 65px;
+}
+.el56 {
+  background-color: white;
+  position: absolute;
+  height: 62px;
+  width: 20px;
+  top: 333px;
+  left: 180px;
+}
+
+.el59 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 149px;
+  width: 20px;
+  top: 361px;
+  transform: rotate(9deg);
+  left: 70px;
+}
+.el60 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 140px;
+  width: 20px;
+  top: 360px;
+  transform: rotate(-13deg);
+  left: 180px;
+}
+.el61 {
+  background-color: white;
+  position: absolute;
+  height: 82px;
+  width: 95px;
+  top: 370px;
+  left: 88px;
+}
+.el62 {
+  background-color: white;
+  position: absolute;
+  height: 50px;
+  width: 120px;
+  top: 445px;
+  left: 75px;
+}
+.el63 {
+  background-color: white;
+  position: absolute;
+  height: 23px;
+  width: 118px;
+  top: 495px;
+  left: 78px;
+}
+.el64 {
+  background-color: white;
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  top: 515px;
+  left: 85px;
+}
+.el65 {
+  background-color: white;
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  top: 515px;
+  left: 135px;
+}
+.el67 {
+  background-color: white;
+  position: absolute;
+  height: 35px;
+  width: 20px;
+  top: 510px;
+  left: 68px;
+  z-index: 0;
+  transform: rotate(-8deg);
+}
+.el68 {
+  background-color: white;
+  position: absolute;
+  height: 45px;
+  width: 52px;
+  top: 535px;
+  left: 78px;
+}
+.el69 {
+  background-color: white;
+  position: absolute;
+  height: 10px;
+  width: 45px;
+  top: 550px;
+  left: 56px;
+  transform: rotate(80deg);
+}
+.el70 {
+  background-color: white;
+  position: absolute;
+  height: 10px;
+  width: 35px;
+  top: 523px;
+  left: 173px;
+  transform: rotate(-88deg);
+}
+.el71 {
+  background-color: white;
+  position: absolute;
+  height: 55px;
+  width: 50px;
+  top: 530px;
+  left: 145px;
+  transform: rotate(2deg);
+}
+.el3 {
+  background-color: black;
+  width: 40px;
+  height: 10px;
+  position: absolute;
+  top: 80px;
+  left: 76px;
+  transform: rotate(-30deg);
+}
+.el4 {
+  background-color: black;
+  width: 80px;
+  height: 10px;
+  position: absolute;
+  top: 70px;
+  left: 90px;
+}
+.el5 {
+  background-color: black;
+  width: 20px;
+  height: 5px;
+  transform: rotate(-20deg);
+  position: absolute;
+  top: 79px;
+  left: 100px;
+}
+.el6 {
+  background-color: black;
+  height: 20px;
+  width: 60px;
+  position: absolute;
+  top: 90px;
+  transform: rotate(-60deg);
+  left: 50px;
+}
+.el7 {
+  background-color: black;
+  height: 5px;
+  width: 40px;
+  transform: rotate(-83.5deg);
+  position: absolute;
+  top: 120px;
+  left: 60.5px;
+}
+.el9 {
+  background-color: black;
+  position: absolute;
+  height: 5px;
+  width: 80px;
+  transform: rotate(-87deg);
+  left: 37px;
+  top: 178px;
+}
+.el11 {
+  background-color: black;
+  position: absolute;
+  height: 17px;
+  width: 70px;
+  top: 101px;
+  transform: rotate(60deg);
+  left: 142px;
+}
+.el12 {
+  background-color: black;
+  position: absolute;
+  height: 10px;
+  width: 20px;
+  top: 75px;
+  left: 140px;
+  transform: rotate(30deg);
+}
+.el13 {
+  background-color: black;
+  position: absolute;
+  height: 5px;
+  transform: rotate(83deg);
+  top: 150px;
+  left: 140px;
+  width: 80px;
+}
+.el14 {
+  background-color: black;
+  position: absolute;
+  height: 10px;
+  top: 190px;
+  transform: rotate(84deg);
+  left: 175px;
+  width: 20px;
+}
+.el15 {
+  background-color: black;
+  position: absolute;
+  width: 40px;
+  height: 30px;
+  transform: rotate(-30deg);
+  top: 212px;
+  z-index: 8;
+  left: 39px;
+}
+.el16 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  transform: rotate(-80deg);
+  top: 150px;
+  left: 64px;
+}
+.el17 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 45px;
+  transform: rotate(-85deg);
+  top: 135px;
+  left: 90px;
+}
+.el18 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 45px;
+  transform: rotate(73deg);
+  top: 120px;
+  left: 110px;
+}
+.el19 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  transform: rotate(73deg);
+  top: 117px;
+  left: 125px;
+}
+.el20 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 44px;
+  transform: rotate(61deg);
+  top: 110px;
+  left: 125px;
+}
+.el22 {
+  background-color: black;
+  position: absolute;
+  height: 20px;
+  width: 35px;
+  top: 213px;
+  left: 178px;
+  transform: rotate(30deg);
+}
+.el23 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  transform: rotate(75deg);
+  top: 175px;
+  left: 144px;
+}
+.el24 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  transform: rotate(76deg);
+  top: 195px;
+  left: 144px;
+}
+.el25 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  transform: rotate(82deg);
+  top: 186px;
+  left: 127px;
+}
+.el26 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 12px;
+  top: 175px;
+  left: 134px;
+  z-index: 5;
+  transform: rotate(-76deg);
+}
+.el27 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 18px;
+  top: 177px;
+  left: 122px;
+  z-index: 5;
+  transform: rotate(31deg);
+}
+.el28 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 41px;
+  top: 192px;
+  left: 99px;
+  transform: rotate(-78deg);
+}
+.el29 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 40px;
+  top: 208px;
+  left: 110px;
+  z-index: 5;
+  transform: rotate(-12deg);
+}
+.el30 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  transform: rotate(80deg);
+  top: 200px;
+  left: 80px;
+}
+.el31 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  transform: rotate(80deg);
+  top: 200px;
+  left: 90px;
+}
+.el32 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  transform: rotate(-28deg);
+  top: 220px;
+  left: 70px;
+}
+.el33 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 52px;
+  top: 252px;
+  left: 66px;
+  transform: rotate(74deg);
+}
+.el34 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  top: 277px;
+  left: 100px;
+}
+.el35 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 52px;
+  top: 252px;
+  left: 150px;
+  z-index: 8;
+  transform: rotate(-74deg);
+}
+.el36 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 60px;
+  transform: rotate(31deg);
+  top: 218px;
+  left: 140px;
+}
+.el37 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  top: 230px;
+  left: 60px;
+  transform: rotate(-30deg);
+}
+.el40 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 90px;
+  top: 286px;
+  left: 14px;
+  transform: rotate(-90deg);
+}
+.el41 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 95px;
+  top: 284px;
+  left: 157px;
+  z-index: 5;
+  transform: rotate(-90deg);
+}
+.el42 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 120px;
+  top: 325px;
+  left: 22px;
+  transform: rotate(90deg);
+}
+.el43 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  top: 310px;
+  left: 135px;
+  z-index: 5;
+  transform: rotate(90deg);
+}
+.el44 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  top: 260px;
+  left: 46px;
+  transform: rotate(65deg);
+}
+.el45 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 70px;
+  top: 260px;
+  left: 150px;
+  z-index: 6;
+  transform: rotate(-65deg);
+}
+.el46 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 76px;
+  top: 293px;
+  left: 95px;
+}
+.el47 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  top: 312px;
+  left: 58px;
+  z-index: 5;
+  transform: rotate(20deg);
+}
+.el48 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 25px;
+  top: 334px;
+  left: 58px;
+  z-index: 5;
+  transform: rotate(20deg);
+}
+.el49 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  top: 312px;
+  left: 185px;
+  z-index: 5;
+  transform: rotate(-20deg);
+}
+.el50 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  top: 335px;
+  left: 185px;
+  z-index: 5;
+  transform: rotate(-20deg);
+}
+.el51 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  transform: rotate(38deg);
+  top: 310px;
+  left: 98px;
+}
+.el52 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 40px;
+  transform: rotate(-65deg);
+  top: 332px;
+  left: 148px;
+}
+.el66 {
+  height: 2px;
+  width: 75px;
+  background-color: black;
+  position: absolute;
+  top: 370px;
+  left: 27px;
+  transform: rotate(-90deg);
+}
+.el72 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 28px;
+  bottom: 180px;
+  left: 83px;
+  transform: rotate(-68deg);
+}
+.el73 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 100px;
+  bottom: 219px;
+  left: 84px;
+}
+.el74 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 79px;
+  bottom: 30px;
+  left: 33px;
+  transform: rotate(80deg);
+}
+.el75 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  bottom: 40px;
+  left: 155px;
+  z-index: 5;
+  transform: rotate(-88deg);
+}
+.el76 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  bottom: 70px;
+  left: 58px;
+  transform: rotate(10deg);
+}
+.el77 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 151px;
+  bottom: 145px;
+  left: -5px;
+  transform: rotate(-80deg);
+}
+.el78 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 140px;
+  bottom: 150px;
+  left: 130px;
+  transform: rotate(77deg);
+}
+.el79 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  bottom: 81px;
+  left: 195px;
+  transform: rotate(-10deg);
+}
+.el80 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  bottom: 42px;
+  left: 83px;
+  z-index: 5;
+  transform: rotate(-5.5deg);
+}
+.el81 {
+  background-color: black;
+  position: absolute;
+  height: 20px;
+  width: 11px;
+  bottom: 154px;
+  left: 63px;
+  transform: rotate(10deg);
+}
+.el82 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 35px;
+  bottom: 230px;
+  left: 65px;
+  transform: rotate(89.5deg);
+}
+.el83 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  bottom: 68px;
+  left: 65px;
+  z-index: 15;
+  transform: rotate(10deg);
+}
+.el84 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 80px;
+  bottom: 78px;
+  z-index: 5;
+  left: 47px;
+  transform: rotate(-85deg);
+}
+.el85 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  bottom: 63px;
+  left: 155px;
+  z-index: 5;
+  transform: rotate(-45deg);
+}
+.el86 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 47px;
+  bottom: 20px;
+  left: 122px;
+  transform: rotate(-88deg);
+}
+.el87 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 47px;
+  bottom: 20px;
+  left: 108px;
+  transform: rotate(-88deg);
+}
+.el88 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  bottom: 220px;
+  left: 176px;
+  transform: rotate(88deg);
+}
+.el89 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 18px;
+  bottom: 190px;
+  left: 188px;
+  transform: rotate(-54deg);
+}
+.el90 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 40px;
+  bottom: 180px;
+  left: 120px;
+  transform: rotate(76deg);
+}
+.el91 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 20px;
+  bottom: 185px;
+  left: 110px;
+  transform: rotate(85deg);
+}
+.el92 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 40px;
+  bottom: 165px;
+  left: 112px;
+  transform: rotate(82deg);
+}
+.el93 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  bottom: 130px;
+  left: 80px;
+  transform: rotate(-82deg);
+}
+.el94 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  bottom: 100px;
+  left: 150px;
+  transform: rotate(82deg);
+}
+.el95 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  bottom: 100px;
+  left: 150px;
+  transform: rotate(82deg);
+}
+.el96 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  bottom: 100px;
+  left: 100px;
+  transform: rotate(-82deg);
+}
+.el97 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  bottom: 140px;
+  left: 170px;
+  transform: rotate(82deg);
+}
+.el98 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  bottom: 100px;
+  left: 190px;
+  transform: rotate(82deg);
+}
+.el99 {
+  background-color: black;
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  bottom: 80px;
+  left: 130px;
+  transform: rotate(-82deg);
+}
+.el101 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 361px;
+  left: 84px;
+  z-index: 8;
+}
+.el102 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 8px;
+  width: 27px;
+  top: 503px;
+  left: 63px;
+  z-index: 15;
+  transform: rotate(10deg);
+}
+.el103 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 10px;
+  width: 20px;
+  top: 215px;
+  left: 99px;
+  transform: rotate(-30deg);
+}
+.el104 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 15px;
+  width: 30px;
+  top: 209px;
+  left: 118px;
+  transform: rotate(-11deg);
+}
+.el105 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 20px;
+  width: 40px;
+  top: 216px;
+  left: 140px;
+  transform: rotate(32deg);
+}
+.el106 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 9px;
+  width: 66px;
+  top: 259px;
+  left: 55px;
+  transform: rotate(65deg);
+}
+.el107 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 10px;
+  width: 49px;
+  top: 249px;
+  left: 62px;
+  transform: rotate(74deg);
+}
+.el108 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 14px;
+  width: 75px;
+  top: 279px;
+  left: 97px;
+}
+.el109 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 8px;
+  width: 66px;
+  top: 258px;
+  left: 147px;
+  transform: rotate(-65deg);
+}
+.el110 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 8px;
+  width: 61px;
+  top: 254px;
+  left: 147px;
+  transform: rotate(-72deg);
+}
+.el111 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  height: 8px;
+  width: 15px;
+  top: 388px;
+  left: 193px;
+  transform: rotate(-53deg);
+}
+.el112 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 5px;
+  width: 20px;
+  top: 330px;
+  left: 184px;
+  transform: rotate(-21deg);
+}
+.el113 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 5px;
+  width: 30px;
+  top: 332px;
+  left: 63px;
+  transform: rotate(21deg);
+}
+.el114 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 5px;
+  width: 36px;
+  top: 191px;
+  left: 105px;
+  transform: rotate(-78deg);
+}
+.el115 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 3px;
+  width: 30px;
+  top: 188px;
+  left: 128px;
+  transform: rotate(82deg);
+}
+.el116 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 3px;
+  width: 20px;
+  top: 180px;
+  left: 124px;
+  transform: rotate(30deg);
+}
+.el117 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 3px;
+  width: 29px;
+  top: 205px;
+  left: 117px;
+  transform: rotate(-13deg);
+}
+.el118 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 18px;
+  width: 27px;
+  top: 186px;
+  left: 118px;
+  transform: rotate(-79deg);
+}
+.el119 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 8px;
+  width: 14px;
+  top: 194px;
+  left: 132px;
+  transform: rotate(-82deg);
+}
+.el120 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 3px;
+  width: 9px;
+  top: 513px;
+  left: 180px;
+  transform: rotate(-47deg);
+}
+.el121 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 4px;
+  width: 16px;
+  top: 506px;
+  left: 182px;
+  transform: rotate(-47deg);
+}
+.el122 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 4px;
+  width: 16px;
+  top: 509px;
+  left: 185px;
+  transform: rotate(-90deg);
+}
+.el123 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 4px;
+  width: 27px;
+  top: 526px;
+  left: 74px;
+  transform: rotate(-85deg);
+}
+.el124 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 6px;
+  width: 50px;
+  top: 532px;
+  left: 85px;
+  transform: rotate(-6deg);
+}
+.el125 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 6px;
+  width: 50px;
+  top: 530px;
+  left: 85px;
+  transform: rotate(-2deg);
+}
+.el126 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 6px;
+  width: 30px;
+  top: 528px;
+  z-index: 10;
+  left: 135px;
+  transform: rotate(-5deg);
+}
+.el127 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 6px;
+  width: 30px;
+  top: 518px;
+  left: 155px;
+  transform: rotate(-45deg);
+}
+.el128 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 15px;
+  width: 23px;
+  top: 513px;
+  left: 145px;
+  transform: rotate(-180deg);
+}
+.el129 {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  height: 15px;
+  width: 25px;
+  top: 518px;
+  left: 169px;
+  transform: rotate(-45deg);
+}
